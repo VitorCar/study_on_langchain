@@ -1,0 +1,59 @@
+# Arquivos compilados pelo Python (Byte-compiled)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+modules/
+
+# Arquivos de configuração e chaves secretas (Segurança)
+.env
+*.env
+secrets.json
+
+# Pastas geradas por IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Distribuição e Empacotamento (Build artifacts)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testes e Cobertura (Testing / Coverage)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# Logs do sistema e do pip
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+# 
+openai_cache.db
