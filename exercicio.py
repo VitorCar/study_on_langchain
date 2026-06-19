@@ -24,7 +24,7 @@ sort_text_size = (
     ChatPromptTemplate.from_messages(
         [
             (
-                'ai',
+                'system',
                 """
                 Classifique a resposta do usuário em uma das seguintes opções:
                 - Resumo Curto
@@ -45,7 +45,7 @@ short_summary = (
     ChatPromptTemplate.from_messages(
         [
             (
-                'ai',
+                'system',
                 '''
                 Você é um sistema que lê arquivos (PDF, TXT, CSV, etc.) e, através desta leitura, gera um resumo curto do conteúdo do arquivo. 
                 Principais regras: 
@@ -70,7 +70,7 @@ detailed_summary = (
     ChatPromptTemplate.from_messages(
         [
             (
-                'ai',
+                'system',
                 '''
                 Você é um sistema que lê arquivos (PDF, TXT, CSV, etc.) e, através desta leitura, gera um resumo curto do conteúdo do arquivo. 
                 Principais regras: 
